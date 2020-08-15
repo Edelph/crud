@@ -1,0 +1,17 @@
+{
+    "name": "tenarivoson/crud",
+    "description": "mon premier crud en php",
+    "authors": [
+        {
+            "name": "jhon edelph",
+            "email": "edelphjhon@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "app\\":"class/"
+
+        }
+    },
+    "require": {}
+}
