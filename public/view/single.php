@@ -1,1 +1,14 @@
-<h1>sigle page</h1>
+<?php
+
+use app\Formulaire;
+
+$form = new Formulaire();
+
+
+?>
+
+
+
+<h1>single page</h1>
+
+    <?=  $form->input( "edelph", "nom :"); ?>
